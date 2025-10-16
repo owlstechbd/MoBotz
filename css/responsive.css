@@ -1,0 +1,146 @@
+@media screen and (max-width: 1600px){
+    .hero-content{
+        width: 70%;
+    }
+    .center-title{
+        width: 85%;
+    }
+    .about-feature{
+        width: 90%;
+    }
+    .feature{
+        margin-top: -1px;
+    }
+    .cta{
+        margin-top: -1px;
+    }
+    .cta-2 h3 {
+    width: 73%;
+    }
+
+}
+
+@media screen and (max-width: 1370px){
+    .hero-content {
+        width: 85%;
+    }
+    .why-switch{
+        margin-top: -2px;
+    }
+        .center-title {
+        width: 100%;
+    }
+    .about-feature{
+        width: 100%;
+    }
+    .cta-contaier{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .cta-2 h3 {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 990px){
+    .about-content{
+        margin-top: 30px;
+    }
+    .hero-content{
+        width: 95%;
+    }
+    .why-switch img{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main{
+        width: 95%;
+    }
+    .btn-join{
+        display: none;
+    }
+    header#mainNav{
+        background: #193501;
+        padding-bottom: 20px;
+    }
+    .hero-top ul{
+        flex-wrap: wrap;
+    }
+    .hero-top ul li{
+        margin-bottom: 40px;
+    }
+    .hero-top p{
+        width: 100%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .hero-top h1{
+        font-size: 25px;
+    }
+    .hero-img {
+    width: 100%;
+    }
+    .hero-top{
+        margin-bottom: 30px;
+    }
+    .hero-box{
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .section-padding{
+        padding: 50px 0 30px;
+    }
+    .center-title{
+        margin-bottom: 30px;
+    }
+    .switch-content{
+        padding: 0;
+    }
+    .step-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .cta-contaier{
+        padding: 20px;
+        margin-bottom: 0;
+
+    }
+
+        h3 {
+        font-size: 19px;
+    }
+    .cta-2{
+        margin-top: -126px;
+    }
+    footer p {
+    margin-top: 50px;
+    font-size: 16px;
+}
+button.navbar-toggler{
+    border: none;
+}
+button.navbar-toggler:focus{
+    outline: none;
+}
+}
