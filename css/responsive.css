@@ -143,4 +143,7 @@ button.navbar-toggler{
 button.navbar-toggler:focus{
     outline: none;
 }
+.hero-top{
+    width: 95%;
+}
 }
