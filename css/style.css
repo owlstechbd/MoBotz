@@ -129,7 +129,7 @@ p {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: #193501 !important;
+	background-color: #292828  !important;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 	z-index: 1000;
 	animation: slideDown 0.3s ease-out;
@@ -222,18 +222,21 @@ p {
 }
 
 .hero-top {
+	width: 70%;
+	margin: 0 auto;
 	text-align: center;
 	color: #fff;
 	margin-bottom: 90px;
 }
 
 .hero-top p {
-	width: 55%;
-	margin: 20px auto 40px;
+	
+	margin: 20px auto;
 	text-align: center;
 }
 
 .hero-top ul {
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 }
@@ -485,6 +488,10 @@ p {
 .cta-img img{
 	width: 100%;
 }
+.cta-content{
+	width: 70%;
+	padding: 100px 0;
+}
 .cta-content h5{
 	color: #D9D605;
 }
@@ -531,6 +538,10 @@ footer{
 	margin: 0 auto;
 	color: #2D2C2C;
 }
+.cta-2 a{
+	color: #2D2C2C;
+	font-family: "Dela Gothic One", sans-serif;
+}
 
 footer{
 	text-align: center  ;
@@ -541,3 +552,85 @@ footer p{
 footer p a{
 	color: #D9D605;
 }
+
+.video-bg{
+	position: relative;
+	
+}
+
+.carousel-item {
+      height: 100vh;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Video background */
+    .carousel-item video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    /* Overlay text */
+    .carousel-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+	  width: 100%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      color: #fff;
+      text-align: center;
+    }
+
+    /* Custom arrows */
+    .carousel-control-prev, .carousel-control-next {
+      width: 60px;
+      height: 60px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color:rgb(170 203 12);
+      border-radius: 50%;
+	  z-index: 9;
+    }
+	 .carousel-control-prev{
+		left: 5%;
+	 }
+	 .carousel-control-next{
+		right: 5%;
+	 }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(1);
+      width: 30px;
+      height: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .carousel-item {
+        height: 90vh;
+      }
+	.carousel-control-prev, .carousel-control-next {
+      width: 20px;
+      height: 20px;
+     
+    }
+	.carousel-control-prev{
+		left: 3%;
+	 }
+	 .carousel-control-next{
+		right: 3%;
+	 }
+	 .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(1);
+      width: 10px;
+      height: 10px;
+    }
+    }
