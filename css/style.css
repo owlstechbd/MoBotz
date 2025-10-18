@@ -614,7 +614,7 @@ footer p a{
 
     @media (max-width: 768px) {
       .carousel-item {
-        height: 90vh;
+        height: 65vh;
       }
 	.carousel-control-prev, .carousel-control-next {
       width: 20px;
@@ -634,3 +634,12 @@ footer p a{
       height: 10px;
     }
     }
+
+ @media (max-width: 375px){
+	.carousel-item {
+        height: 75vh;
+    }
+	.hero-top ul{
+		margin-top: 33px;
+	}
+}
