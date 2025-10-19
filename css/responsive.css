@@ -78,7 +78,7 @@
         display: none;
     }
     header#mainNav{
-        background: #193501;
+        
         padding-bottom: 20px;
     }
     .hero-top ul{
@@ -145,5 +145,33 @@ button.navbar-toggler:focus{
 }
 .hero-top{
     width: 95%;
+}
+#mainNav{
+    background:#292828;
+}
+div#customCarousel {
+    margin-top: 119px;
+}
+.for-dektop{
+    display: none;
+}
+.for-phone{
+	display: block;
+}
+.carousel-caption{
+    transform: translate(-50%, -100%);
+}
+.carousel-item{
+    height: 40vh;
+}
+.hero-top h1 {
+        font-size: 20px;
+}
+.hero-top p{
+    font-size: 15px;
+    margin: 15px auto;
+}
+.hero-top ul{
+    margin-top: 30px;
 }
 }
