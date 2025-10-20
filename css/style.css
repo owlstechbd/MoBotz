@@ -194,10 +194,11 @@ p {
 	transition: .6s;
 
 }
-
-.btn-join:hover {
-	background: #fff;
+.btn-join:hover{
+	color: #000000;
 }
+
+
 
 @media (max-width: 991.98px) {
 	.navbar-collapse {

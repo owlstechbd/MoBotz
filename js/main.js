@@ -42,7 +42,18 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
+document.addEventListener('DOMContentLoaded', function() {
+  const video = document.querySelector('video');
+  if (video) {
+    video.muted = true;
+    video.play().catch(() => {
+      // Fallback: try again after slight delay (for iOS Safari)
+      setTimeout(() => {
+        video.play().catch(()=>{});
+      }, 1000);
+    });
+  }
+});
 
 
 //animated
