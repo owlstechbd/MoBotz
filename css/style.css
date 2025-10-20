@@ -599,6 +599,7 @@ footer p a {
 	height: 70vh;
 	object-fit: cover;
 	z-index: 1;
+	pointer-events: none;
 }
 
 /* Overlay text */
