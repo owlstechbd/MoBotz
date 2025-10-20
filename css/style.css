@@ -690,3 +690,7 @@ footer p a {
 		margin-top: 33px;
 	}
 }
+
+.all-div{
+	overflow: hidden;
+}
