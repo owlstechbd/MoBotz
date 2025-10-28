@@ -74,6 +74,10 @@
     .main{
         width: 95%;
     }
+    .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
     .btn-join {
     font-size: 12px;
     padding: 8px 14px;
