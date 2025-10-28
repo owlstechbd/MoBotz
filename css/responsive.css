@@ -74,9 +74,16 @@
     .main{
         width: 95%;
     }
-    .btn-join{
-        display: none;
-    }
+    .btn-join {
+    font-size: 12px;
+    padding: 8px 14px;
+}
+.for-phone img{
+    width: 18px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
     header#mainNav{
         
         padding-bottom: 20px;
